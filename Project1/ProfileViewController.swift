@@ -16,6 +16,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var imageNibm: UIImageView!
     
     var chan: String = "Can"
+    var chan2: String = "Chan"
     
     override func viewDidLoad() {
         super.viewDidLoad()
