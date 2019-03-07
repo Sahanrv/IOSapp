@@ -15,6 +15,8 @@ class ProfileViewController: UIViewController {
    
     @IBOutlet weak var imageNibm: UIImageView!
     
+    var chan: String = "Can"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imageNibm.layer.cornerRadius = self.imageNibm.frame.width/2.0
